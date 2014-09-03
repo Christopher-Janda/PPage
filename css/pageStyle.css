@@ -1,0 +1,70 @@
+
+body{
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #808080;
+  font-size:20px;
+  color: #002D63;
+  font-family: Ubuntu-Regular;
+}
+
+header{
+	top: 0px;
+	position:absolute;
+	
+	z-index: 3;
+}
+.navInfo{
+	position:absolute;
+	left:30px;
+	top:10px;
+	width: 400px;
+	min-height: 1px;
+	border-radius: 15px;
+	-moz-border-radius:15px;
+	overflow: hidden;
+	border: 3px;
+	color: #fccd35;
+	background-color: #307DC6;
+	padding: 10px;
+	z-index: 2;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+
+.navigation{
+	position: absolute;
+	left: 30%;
+	top: 10%;
+	height: 500px;
+	width: 600px;
+	display: block;
+}
+
+
+#infoBox{
+	padding: .2em 1em;
+	position: relative;
+	top: 50px;
+	
+}
+
+.media ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.media{
+	top:5%;
+	margin-left:90%;
+	position: fixed;
+}
+
+@font-face{
+	font-family: Ubuntu-Regular;
+	src: url('../fonts/Ubuntu-Regular.ttf');
+}

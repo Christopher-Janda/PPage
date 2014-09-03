@@ -1,0 +1,79 @@
+.neuron{
+	position: absolute;
+	visibility: hidden;
+	height:10px;
+	width:20px;
+	border-radius: 50%;
+	background: url('../img/neuron2.jpg');
+}
+
+.projector{
+	position: absolute;
+	width: 206px;
+	height: 185px;
+	background-image: url('../img/plight2.png');
+	left: 78%;
+	top: 19%;
+	z-index: 0;
+	opacity: 0.7;
+	visibility: hidden;
+}
+
+.pulse:after{
+	-webkit-animation:pulse 2s ease-in-out infinite;
+	-ms-animation:pulse 2s ease-in-out infinite;
+	-moz-animation:pulse 2s ease-in-out infinite;
+	border: 1px;
+	border-radius:50%;
+	display: block;
+	height: 20px;
+	width: 20px;
+	opacity: 0;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 3;
+	content: "";
+	background-image:url('../img/synapse.jpg')
+}
+
+
+.brainMap .map_link{
+	-webkit-animation: pulse 2s ease-in-out infinite;
+	-moz-animation: pulse 2s ease-in-out infinite;
+	-ms-animation:pulse 2s ease-in-out infinite;
+	background: transparent;
+	border: 1px solid transparent;
+	border-radius: 50%;
+}
+
+
+@-webkit-keyframes pulse{
+	from{
+		-webkit-transform: scale(1);
+		transform:scale(1);
+		opacity:1;	
+	}
+	to{
+		-webkit-transform: scale(3);
+		transform:scale(3);
+		opacity:0;
+	}
+}
+@-moz-keyframes pulse{
+	from{
+		-moz-transform: scale(1);
+		transform:scale(1);
+		opacity:1;	
+	}
+	to{
+		-moz-transform: scale(3);
+		transform:scale(3);
+		opacity:0;
+	}
+}
+
+
+
+
+

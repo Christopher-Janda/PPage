@@ -1,0 +1,42 @@
+
+
+
+.contentPanel{
+	position:absolute;
+	width:400px;
+	left:10px;
+	top:10px;
+	min-height: 10px;
+	border-radius: 15px;
+	-moz-border-radius:15px;
+	overflow: hidden;
+	border: 3px;
+	background-color: #F6D663;
+	padding: 30px;
+	z-index: 2;
+	
+}
+
+.contentRight{
+	left: 500px;
+	width: 40%;
+	padding: 30px;
+}
+
+.contentPanel div{
+	border-radius: 15px;
+	-moz-border-radius:15px;
+	overflow: hidden;
+	
+}
+
+.animateContent{
+	-webkit-animation: moveToHome .5s ease-in-out;
+	-moz-animation: moveToHome .5s ease-in-out;
+}
+
+@-webkit-keyframes{
+	0%{
+		
+	}
+}
